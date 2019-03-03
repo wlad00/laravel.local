@@ -19,6 +19,14 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+{{--    <link href="{{ asset('css/Style.css') }}" rel="stylesheet">--}}
+
+    <!-- Semantic -->
+
+    {{--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">--}}
+
+
+    <link data-require="font-awesome@4.3.0" data-semver="4.3.0" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
 </head>
 <body>
     <div id="app">
@@ -76,4 +84,24 @@
         </main>
     </div>
 </body>
+
+<!-- Angular -->
+
+<script src="https://code.angularjs.org/1.3.17/angular.js" ></script>
+
+<script src="js/ta.js"></script>
+
+<!-- textAngular -->
+
+<script src="https://rawgit.com/fraywing/textAngular/master/dist/textAngular-rangy.min.js"></script>
+<script src="https://rawgit.com/fraywing/textAngular/master/dist/textAngular-sanitize.min.js"></script>
+<script src="https://rawgit.com/fraywing/textAngular/master/dist/textAngular.min.js"></script>
+
+
+<!-- Semantic -->
+
+{{--<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js">
+
+</script>--}}
+
 </html>
