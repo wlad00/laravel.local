@@ -19,9 +19,8 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-
 
 Route::get('/test', 'FilesController@test')->name('test');
+
+
+Route::get('send','mailController@send');
